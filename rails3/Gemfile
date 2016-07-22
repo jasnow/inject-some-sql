@@ -22,7 +22,7 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
 
-  gem 'twitter-bootstrap-rails'
+  gem 'twitter-bootstrap-rails', '2.2.8' # LOCKED DOWN
   gem 'less-rails'
   gem 'uglifier', '>= 1.0.3'
 end
@@ -32,6 +32,8 @@ gem 'jquery-rails'
 gem 'coderay', "~> 1.0.8"
 
 gem 'rdiscount'
+
+gem 'test-unit'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
